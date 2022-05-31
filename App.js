@@ -4,7 +4,7 @@ class App extends React.Component
 {
   render()
   {
-    return <h1 className="container">Hello World this is a work on react usin JSX className</h1>
+    return React.createElement('h1', null, "Hello World Using React.CreateElement " )
   }
 } 
 
